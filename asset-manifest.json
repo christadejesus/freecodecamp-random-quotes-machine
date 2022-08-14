@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/freecodecamp-random-quotes-machine/static/css/main.28d107d8.css",
-    "main.js": "/freecodecamp-random-quotes-machine/static/js/main.2b429572.js",
+    "main.js": "/freecodecamp-random-quotes-machine/static/js/main.b191eab5.js",
     "static/js/787.212ec4aa.chunk.js": "/freecodecamp-random-quotes-machine/static/js/787.212ec4aa.chunk.js",
     "index.html": "/freecodecamp-random-quotes-machine/index.html",
     "main.28d107d8.css.map": "/freecodecamp-random-quotes-machine/static/css/main.28d107d8.css.map",
-    "main.2b429572.js.map": "/freecodecamp-random-quotes-machine/static/js/main.2b429572.js.map",
+    "main.b191eab5.js.map": "/freecodecamp-random-quotes-machine/static/js/main.b191eab5.js.map",
     "787.212ec4aa.chunk.js.map": "/freecodecamp-random-quotes-machine/static/js/787.212ec4aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28d107d8.css",
-    "static/js/main.2b429572.js"
+    "static/js/main.b191eab5.js"
   ]
 }
