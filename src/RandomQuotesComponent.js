@@ -103,7 +103,12 @@ const RandomQuotesComponent = () => {
         </div>
       </div>
       <footer>
-        <p>by Christa DeJesus</p>
+        <p>
+          by{" "}
+          <a href="https://christadejesus.com" target="_blank" rel="noreferrer">
+            Christa DeJesus
+          </a>
+        </p>
       </footer>
     </div>
   );
