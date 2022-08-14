@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+/* COLOR VARIABLES */
+--neutral-white: #fff;
+--neutral-lt: #f1f1f1;
+--neutral-md: #999;
+
+/* FONT VARIABLES */
+--font-standard: "Montserrat", san-serif;
+--font-display: "Lora", serif;
+--font-xs: .6rem;
+--font-sm: .8rem;
+--font-md: 1rem;
+--font-lg: 1.4rem;
+--font-xlg: 2rem;
+
+/* OTHER VARIABLES */
+--radius-sm: 5px;
+--opacity-hover: 90%;
+}
+
+/* MAIN STYLES */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: var(--font-standard);
+  padding: 20px 20px 0px 20px;
+}
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  background-color: var(--neutral-white);
+  padding: 10px 20px 20px 20px;
+  border-radius: 8px;
+  max-width: 350px;
+  min-height: 350px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, .5);
+}
+
+.quote-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+}
+.quote-icon {
+  font-size: var(--font-xlg);
+}
+#text {
+  font-family: var(--font-display);
+  font-size: var(--font-lg);
+}
+
+#author {
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+}
+.button-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid var(--neutral-md);
+  padding-top: 20px;
+}
+
+/* LINKS & BUTTONS */
+a {
+  color: var(--neutral-lt);
+  text-decoration: none;
+}
+.btn {
+  font-family: inherit;
+  border-radius: var(--radius-sm);
+  border: none;
+  color: var(--neutral-lt);
+  padding: 8px 16px;
+  width: fit-content;
+}
+
+.btn:hover {
+  opacity: var(--opacity-hover);
+}
+
+.social-btn {
+  border-radius: var(--radius-sm);
+  font-size: var(--font-lg);
+  padding: 5px;
+  text-align: center;
+}
+
+.social-btn:hover {
+  opacity: var(--opacity-hover);
+}
+
+/* FOOTER */
+footer {
+  color: var(--neutral-lt);
+  font-size: var(--font-xs);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  text-align: center;
+  max-width: 350px;
+  margin-top: 1rem;
+}
